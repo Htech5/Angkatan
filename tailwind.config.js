@@ -6,15 +6,19 @@ export default {
         "./resources/**/*.vue",
     ],
     theme: {
-        colors: {
-            chocolate: "##66391C",
-            vanilla: "#F9ECDC",
-            mocca: "#AD7D4F",
-        },
         extend: {
+            colors: {
+                chocolate: "#66391C",
+                vanilla: "#F9ECDC",
+                mocca: "#AD7D4F",
+            },
             fontFamily: {
                 montserrat: ["Montserrat"],
             },
+            gradientColorStopPositions: {
+                65: '65%',
+                
+            }
         },
     },
     plugins: [],
