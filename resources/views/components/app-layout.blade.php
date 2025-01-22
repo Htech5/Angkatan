@@ -15,11 +15,11 @@
     </head>
     <body class="font-montserrat">
         <div class="flex flex-col">
-            @include('components.navbar')
+            @include('components.navbar2')
             <main class="min-h-screen">
                 {{ $slot }}
             </main>
-            @include('components.footer')
+            @include('components.footer2')
         </div>
     </body>
 </html>
