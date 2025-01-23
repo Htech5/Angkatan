@@ -69,7 +69,7 @@
 </div>
 
 <div id="modalContent2" class="transform transition-all scale-95 opacity-0 md:hidden w-[95vw] my-4 h-[90vh] bg-mocca relative shadow-lg rounded-xl mx-auto overflow-hidden">
-    <div class="w-full flex justify-center items-center relative h-12 bg-mocca">
+    <div class="w-full flex justify-center items-center relative h-12 bg-gradient-to-l from-[#AD7D4F] from-60% to-[#EDB47E]">
         <h1 class="font-montserrat font-bold text-vanilla text-xl">MUDRYCK</h1>
         <button id="closeModal2"
             class="absolute p-1 right-6 top-1 hover:rotate-180 hover:duration-500 hover:scale-90 transition cursor-pointer text-chocolate text-xl">
@@ -79,7 +79,7 @@
     <div class="w-full h-1/3  bg-transparent flex justify-center bg-white relative items-end ">
         <img src="assets/img.png" class="object-cover h-[125%] absolute  -bottom-20" alt="">
     </div>
-    <div class="w-full h-1/2 bg-mocca relative p-6">
+    <div class="w-full h-1/2 bg-gradient-to-tr from-[#AD7D4F] from-60% to-[#EDB47E] relative p-6">
         <div class="w-full">
             <h1 class="text-base font-semibold text-vanilla mb-2">Muhammad Mudryck</h1>
         </div>
