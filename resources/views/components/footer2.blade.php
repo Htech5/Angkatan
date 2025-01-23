@@ -4,7 +4,7 @@
     <div class=" min-w-full  mx-auto grid grid-cols-4 gap-4 md:gap-12 grid-rows-3 md:grid-rows-4">
 
         <!-- Column 1 -->
-        <div class="row flex md:row-start-1 col-span-2 md:col-span-1 row-start-2 md:row-span-4 row-span-1">
+        <div class="row flex md:row-start-1 col-span-2 md:col-span-1 row-start-2 md:row-span-4 row-span-1 ml-4 sm:ml-16 md:ml-0">
             <img class="h-[220px] md:h-full float-left  md:w-auto" src="assets/maskot-encryptour.png" alt="Maskot Encryptour">
         </div>
         {{-- baris kosong --}}
