@@ -1,5 +1,5 @@
 <nav class="sticky z-50">
-    <div class="max-w-full px-2 sm:px-6 lg:px-8 bg-mocca items-center fixed top-0 left-0 w-full shadow-md p-4 z-10 drop-shadow-xl">
+    <div class="max-w-full px-2 sm:px-4 lg:px-8 bg-mocca items-center fixed top-0 left-0 w-full shadow-md p-2 md:p-4 z-10 drop-shadow-xl">
 
         <div class="flex items-center justify-between h-10">
             <div class="flex items-center">
@@ -52,7 +52,7 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div class="sm:hidden w-full h-full fixed flex justify-end z-50 mt-16  hidden"  id="nav">
+    <div class="sm:hidden w-full h-full fixed flex justify-end z-50 mt-12  hidden"  id="nav">
         <div class="space-y-1 bg-mocca px-2 pb-3 pt-2 w-1/3 h-full transition-all duration-300 opacity-0 translate-x-full" id="navContent">
             <a href="/"
                 class="block rounded-md px-3 py-2 text-base font-semibold text-vanilla hover:bg-chocolate">Home</a>

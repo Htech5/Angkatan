@@ -20,8 +20,10 @@
         document.addEventListener('DOMContentLoaded', () => {
             const modal = document.getElementById('modal');
             const modalContent = document.getElementById('modalContent');
+            const modalContent2 = document.getElementById('modalContent2');
             const openModalBtn = document.getElementById('openModal');
             const closeModalBtn = document.getElementById('closeModal');
+            const closeModalBtn2 = document.getElementById('closeModal2');
 
             
             openModalBtn.addEventListener('click', () => {
@@ -29,6 +31,8 @@
                 setTimeout(() => {
                     modalContent.classList.add('opacity-100', 'scale-100');
                     modalContent.classList.remove('opacity-0', 'scale-95');
+                    modalContent2.classList.add('opacity-100', 'scale-100');
+                    modalContent2.classList.remove('opacity-0', 'scale-95');
                 }, 10); 
             });
 
@@ -36,6 +40,14 @@
             closeModalBtn.addEventListener('click', () => {
                 modalContent.classList.add('opacity-0', 'scale-95');
                 modalContent.classList.remove('opacity-100', 'scale-100');
+                setTimeout(() => {
+                    modal.classList.add('hidden');
+                }, 300); 
+                
+            });
+            closeModalBtn2.addEventListener('click', () => {
+                modalContent2.classList.add('opacity-0', 'scale-95');
+                modalContent2.classList.remove('opacity-100', 'scale-100');
                 setTimeout(() => {
                     modal.classList.add('hidden');
                 }, 300); 

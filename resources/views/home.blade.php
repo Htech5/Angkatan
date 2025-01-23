@@ -10,7 +10,7 @@
                         class="w-full h-[50vh] md:h-[60vh] flex justify-center items-center bg-gradient-to-b absolute
                  z-10 from-black/50 from- via-transparent to-black-30">
                         <h1
-                            class="text-3xl md:text-5xl drop-shadow-2xl rounded-xl bg-black/5 p-4 backdrop-blur-[1px] font-bold font-montserrat text-vanilla">
+                            class="text-2xl md:text-5xl drop-shadow-2xl rounded-xl bg-black/5 p-4 backdrop-blur-[1px] font-bold font-montserrat text-vanilla">
                             WELCOME TO OUR PAGE</h1>
                     </div>
                     <img src="assets/foto-angkatan(1).jpg" class="object-center h-full object-cover relative w-full"
@@ -33,9 +33,9 @@
             </div>
             <!-- Navigation Controls -->
             <button id="prev"
-                class="absolute top-1/2 left-2 -translate-y-1/2 font-montserrat text-lg hover:text-2xl bg-black/10 hover:bg-black/30 hover:w-[5vh] hover:h-[5vh] transition-all  backdrop-blur-sm text-white/50 w-[4vh] h-[4vh]  rounded-full">&#10525;</button>
+                class="absolute top-1/2 left-2 -translate-y-1/2 font-montserrat text-lg hover:text-2xl bg-black/10 hover:bg-black/30 hover:w-[5vh] hover:h-[5vh] transition-all  backdrop-blur-sm text-white/50 w-[4vh] h-[4vh]  rounded-full"><</button>
             <button id="next"
-                class="absolute top-1/2 right-2 -translate-y-1/2 font-montserrat text-lg hover:text-2xl bg-black/10 hover:bg-black/30 hover:w-[5vh] hover:h-[5vh] transition-all  backdrop-blur-sm text-white/50 w-[4vh] h-[4vh]  rounded-full">&#10526;</button>
+                class="absolute top-1/2 right-2 -translate-y-1/2 font-montserrat text-lg hover:text-2xl bg-black/10 hover:bg-black/30 hover:w-[5vh] hover:h-[5vh] transition-all  backdrop-blur-sm text-white/50 w-[4vh] h-[4vh]  rounded-full">></button>
 
             <!-- Indicators -->
             <div id="indicators"
@@ -66,59 +66,17 @@
                         <div
                             class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
                             <h3
-                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-10 font-montserrat drop-shadow-md">
+                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
                                 23 - 12 - 2024</h3>
                         </div>
                         <div
                             class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
                             <h3
-                                class="text-2xl md:text-4xl text-vanilla font-bold absolute bottom-22 md:bottom-16 font-montserrat drop-shadow-md">
+                                class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
                                 Teks Apapun</h3>
                             <p
-                                class="text-sm text-vanilla font-base absolute bottom-5 md:bottom-8 md:text-lg font-montserrat">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, laborum.</p>
-                        </div>
-                        <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
-                            <img src="assets/foto-angkatan(1).jpg" class=" object-cover w-full h-full object-center"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="flex-shrink-0 h-full w-1/2 relative mx-4">
-                        <div
-                            class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
-                            <h3
-                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-10 font-montserrat drop-shadow-md">
-                                23 - 12 - 2024</h3>
-                        </div>
-                        <div
-                            class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
-                            <h3
-                                class="text-2xl md:text-4xl text-vanilla font-bold absolute bottom-22 md:bottom-16 font-montserrat drop-shadow-md">
-                                Teks Apapun</h3>
-                            <p
-                                class="text-sm text-vanilla font-base absolute bottom-5 md:bottom-8 md:text-lg font-montserrat">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, laborum.</p>
-                        </div>
-                        <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
-                            <img src="assets/foto-angkatan(3).jpg" class=" object-cover w-full h-full object-center"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="flex-shrink-0 h-full w-1/2 relative mx-4">
-                        <div
-                            class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
-                            <h3
-                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-10 font-montserrat drop-shadow-md">
-                                23 - 12 - 2024</h3>
-                        </div>
-                        <div
-                            class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
-                            <h3
-                                class="text-2xl md:text-4xl text-vanilla font-bold absolute bottom-22 md:bottom-16 font-montserrat drop-shadow-md">
-                                Teks Apapun</h3>
-                            <p
-                                class="text-sm text-vanilla font-base absolute bottom-5 md:bottom-8 md:text-lg font-montserrat">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, laborum.</p>
+                                 style="scrollbar-width: none; -ms-overflow-style: none;" class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-8 md:text-lg md:h-full h-8 overflow-y-auto font-montserrat">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum, sit doloribus consequatur, nam voluptatem sint velit illum, impedit eligendi quos quod explicabo magnam! Blanditiis illum mollitia voluptatibus repellat quos, magni similique voluptatem nobis. Aut labore porro praesentium asperiores nisi eius assumenda soluta sint nostrum beatae. Laudantium, dicta inventore. Libero nesciunt, repudiandae rerum ducimus laboriosam obcaecati placeat facilis quod reiciendis quam blanditiis eaque quo nemo. Cumque ratione ea amet voluptatem error modi nisi ullam debitis sit dolorum, ut pariatur alias beatae laboriosam. Quo, ab iste minima magni voluptatem molestiae!</p>
                         </div>
                         <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
                             <img src="assets/foto-angkatan(4).jpg" class=" object-cover w-full h-full object-center"
@@ -129,17 +87,101 @@
                         <div
                             class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
                             <h3
-                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-10 font-montserrat drop-shadow-md">
+                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
                                 23 - 12 - 2024</h3>
                         </div>
                         <div
                             class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
                             <h3
-                                class="text-2xl md:text-4xl text-vanilla font-bold absolute bottom-22 md:bottom-16 font-montserrat drop-shadow-md">
+                                class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
                                 Teks Apapun</h3>
                             <p
-                                class="text-sm text-vanilla font-base absolute bottom-5 md:bottom-8 md:text-lg font-montserrat">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, laborum.</p>
+                                 style="scrollbar-width: none; -ms-overflow-style: none;" class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-8 md:text-lg md:h-full h-8 overflow-y-auto font-montserrat">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum, sit doloribus consequatur, nam voluptatem sint velit illum, impedit eligendi quos quod explicabo magnam! Blanditiis illum mollitia voluptatibus repellat quos, magni similique voluptatem nobis. Aut labore porro praesentium asperiores nisi eius assumenda soluta sint nostrum beatae. Laudantium, dicta inventore. Libero nesciunt, repudiandae rerum ducimus laboriosam obcaecati placeat facilis quod reiciendis quam blanditiis eaque quo nemo. Cumque ratione ea amet voluptatem error modi nisi ullam debitis sit dolorum, ut pariatur alias beatae laboriosam. Quo, ab iste minima magni voluptatem molestiae!</p>
+                        </div>
+                        <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
+                            <img src="assets/foto-angkatan(1).jpg" class=" object-cover w-full h-full object-center"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 h-full w-1/2 relative mx-4">
+                        <div
+                            class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
+                            <h3
+                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
+                                23 - 12 - 2024</h3>
+                        </div>
+                        <div
+                            class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
+                            <h3
+                                class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
+                                Teks Apapun</h3>
+                            <p
+                                 style="scrollbar-width: none; -ms-overflow-style: none;" class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-8 md:text-lg md:h-full h-8 overflow-y-auto font-montserrat">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum, sit doloribus consequatur, nam voluptatem sint velit illum, impedit eligendi quos quod explicabo magnam! Blanditiis illum mollitia voluptatibus repellat quos, magni similique voluptatem nobis. Aut labore porro praesentium asperiores nisi eius assumenda soluta sint nostrum beatae. Laudantium, dicta inventore. Libero nesciunt, repudiandae rerum ducimus laboriosam obcaecati placeat facilis quod reiciendis quam blanditiis eaque quo nemo. Cumque ratione ea amet voluptatem error modi nisi ullam debitis sit dolorum, ut pariatur alias beatae laboriosam. Quo, ab iste minima magni voluptatem molestiae!</p>
+                        </div>
+                        <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
+                            <img src="assets/foto-angkatan(2).jpg" class=" object-cover w-full h-full object-center"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 h-full w-1/2 relative mx-4">
+                        <div
+                            class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
+                            <h3
+                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
+                                23 - 12 - 2024</h3>
+                        </div>
+                        <div
+                            class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
+                            <h3
+                                class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
+                                Teks Apapun</h3>
+                            <p
+                                 style="scrollbar-width: none; -ms-overflow-style: none;" class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-8 md:text-lg md:h-full h-8 overflow-y-auto font-montserrat">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum, sit doloribus consequatur, nam voluptatem sint velit illum, impedit eligendi quos quod explicabo magnam! Blanditiis illum mollitia voluptatibus repellat quos, magni similique voluptatem nobis. Aut labore porro praesentium asperiores nisi eius assumenda soluta sint nostrum beatae. Laudantium, dicta inventore. Libero nesciunt, repudiandae rerum ducimus laboriosam obcaecati placeat facilis quod reiciendis quam blanditiis eaque quo nemo. Cumque ratione ea amet voluptatem error modi nisi ullam debitis sit dolorum, ut pariatur alias beatae laboriosam. Quo, ab iste minima magni voluptatem molestiae!</p>
+                        </div>
+                        <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
+                            <img src="assets/foto-angkatan(3).jpg" class=" object-cover w-full h-full object-center"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 h-full w-1/2 relative mx-4">
+                        <div
+                            class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
+                            <h3
+                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
+                                23 - 12 - 2024</h3>
+                        </div>
+                        <div
+                            class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
+                            <h3
+                                class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
+                                Teks Apapun</h3>
+                            <p
+                                 style="scrollbar-width: none; -ms-overflow-style: none;" class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-8 md:text-lg md:h-full h-8 overflow-y-auto font-montserrat">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum, sit doloribus consequatur, nam voluptatem sint velit illum, impedit eligendi quos quod explicabo magnam! Blanditiis illum mollitia voluptatibus repellat quos, magni similique voluptatem nobis. Aut labore porro praesentium asperiores nisi eius assumenda soluta sint nostrum beatae. Laudantium, dicta inventore. Libero nesciunt, repudiandae rerum ducimus laboriosam obcaecati placeat facilis quod reiciendis quam blanditiis eaque quo nemo. Cumque ratione ea amet voluptatem error modi nisi ullam debitis sit dolorum, ut pariatur alias beatae laboriosam. Quo, ab iste minima magni voluptatem molestiae!</p>
+                        </div>
+                        <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
+                            <img src="assets/foto-angkatan(1).jpg" class=" object-cover w-full h-full object-center"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 h-full w-1/2 relative mx-4">
+                        <div
+                            class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
+                            <h3
+                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
+                                23 - 12 - 2024</h3>
+                        </div>
+                        <div
+                            class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
+                            <h3
+                                class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
+                                Teks Apapun</h3>
+                            <p
+                                 style="scrollbar-width: none; -ms-overflow-style: none;" class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-8 md:text-lg md:h-full h-8 overflow-y-auto font-montserrat">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum, sit doloribus consequatur, nam voluptatem sint velit illum, impedit eligendi quos quod explicabo magnam! Blanditiis illum mollitia voluptatibus repellat quos, magni similique voluptatem nobis. Aut labore porro praesentium asperiores nisi eius assumenda soluta sint nostrum beatae. Laudantium, dicta inventore. Libero nesciunt, repudiandae rerum ducimus laboriosam obcaecati placeat facilis quod reiciendis quam blanditiis eaque quo nemo. Cumque ratione ea amet voluptatem error modi nisi ullam debitis sit dolorum, ut pariatur alias beatae laboriosam. Quo, ab iste minima magni voluptatem molestiae!</p>
                         </div>
                         <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
                             <img src="assets/foto-angkatan(2).jpg" class=" object-cover w-full h-full object-center"
@@ -283,7 +325,7 @@
             currentX = e.clientX || e.touches[0].clientX;
             moveX = startX - currentX;
 
-            carousel2.style.transform = `translateX(calc(-25% - ${moveX}px))`;
+            carousel2.style.transform = `translateX(calc(-30% - ${moveX}px))`;
         });
 
         carousel2.addEventListener('mouseup', () => {
@@ -310,7 +352,7 @@
             currentX = e.touches[0].clientX;
             moveX = startX - currentX;
 
-            carousel2.style.transform = `translateX(calc(-25% - ${moveX}px))`;
+            carousel2.style.transform = `translateX(calc(-30% - ${moveX}px))`;
         });
 
         carousel2.addEventListener('touchend', () => {
