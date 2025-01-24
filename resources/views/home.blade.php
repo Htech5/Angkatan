@@ -4,12 +4,12 @@
             <div class="list absolute w-max h-full left-0 top-0 flex transition duration-1000">
                 <div class="item w-screen flex justify-center max-w-full py-24">
                     <div class="w-[90vw] lg:w-[65vw] xl:w-[80vw] grid grid-cols-12 items-center shadow-2xl shadow-chocolate bg-mocca bg-opacity-10 rounded-3xl xl:px-24 text-justify text-chocolate">
-                        <button class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold" id="prev1"><</button>
-                        <div class="flex items-center col-span-10 pr-8">
+                        <button class="md:w-[50px] md:h-[50px] rounded-full text-chocolate border-none font-mono font-bold" id="prev1"><</button>
+                        <div class="flex items-center col-span-10 md:pr-8">
                             <img src="{{ asset('assets/logo-encryptour.png') }}" alt="logo" class="w-auto h-[200px] md:h-[300px] xl:h-[400px]">
                             <h2 class="text-4xl font-bold">About Us</h2>
                         </div>
-                        <button class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold" id="next1">></button>
+                        <button class="md:w-[50px] md:h-[50px] rounded-full text-chocolate border-none font-mono font-bold" id="next1">></button>
                     </div>
                 </div>
                 <div class="item w-screen flex justify-center max-w-full py-24">
