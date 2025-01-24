@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\BiodataController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,15 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [HomeController::class, 'index']);
 Route::get('/identity', function () {
     return view('identity');
 });
-Route::get('/biodata', function () {
-    return view('biodata');
-});
+Route::get('/biodata', [BiodataController::class, 'index']);
 Route::get('/gallery', function () {
     return view('gallery');
 });

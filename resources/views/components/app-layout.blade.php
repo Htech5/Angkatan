@@ -15,7 +15,7 @@
     <body class="font-montserrat">
         <div class="flex flex-col">
             @include('components.navbar')
-            <main class="min-h-screen">
+            <main class="min-h-screen bg-vanilla">
                 {{ $slot }}
             </main>
             @include('components.footer')
