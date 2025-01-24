@@ -13,7 +13,7 @@
 
         <title>ENCRYPTOUR</title>
     </head>
-    <body class="font-montserrat">
+    <body class="font-montserrat  bg-vanilla">
         <div class="flex flex-col">
             @include('components.navbar2')
             <main class="min-h-screen">
