@@ -43,10 +43,9 @@
                 <!-- Add more items as needed -->
             </div>
             <!-- Navigation Controls -->
-            <button id="prev"
-                class="absolute top-1/2 left-2 -translate-y-1/2 font-montserrat text-lg hover:text-2xl bg-black/10 hover:bg-black/30 hover:w-[5vh] hover:h-[5vh] transition-all  backdrop-blur-sm text-white/50 w-[4vh] h-[4vh]  rounded-full">
-                <</button>
-                    <button id="next"
+            <button id="prev0"
+                class="absolute top-1/2 left-2 -translate-y-1/2 font-montserrat text-lg hover:text-2xl bg-black/10 hover:bg-black/30 hover:w-[5vh] hover:h-[5vh] transition-all  backdrop-blur-sm text-white/50 w-[4vh] h-[4vh]  rounded-full"><</button>
+                    <button id="next0"
                         class="absolute top-1/2 right-2 -translate-y-1/2 font-montserrat text-lg hover:text-2xl bg-black/10 hover:bg-black/30 hover:w-[5vh] hover:h-[5vh] transition-all  backdrop-blur-sm text-white/50 w-[4vh] h-[4vh]  rounded-full">></button>
 
                     <!-- Indicators -->
@@ -66,15 +65,15 @@
                         <button
                             class="md:w-[50px] md:h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
                             id="prev1">
-                            << /button>
-                                <div class="flex items-center col-span-10 md:pr-8">
-                                    <img src="{{ asset('assets/logo-encryptour.png') }}" alt="logo"
-                                        class="w-auto h-[200px] md:h-[300px] xl:h-[400px]">
-                                    <h2 class="text-4xl font-bold">About Us</h2>
-                                </div>
-                                <button
-                                    class="md:w-[50px] md:h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
-                                    id="next1">></button>
+                        </button>
+                        <div class="flex items-center col-span-10 md:pr-8">
+                            <img src="{{ asset('assets/logo-encryptour.png') }}" alt="logo"
+                                class="w-auto h-[200px] md:h-[300px] xl:h-[400px]">
+                            <h2 class="text-4xl font-bold">About Us</h2>
+                        </div>
+                        <button
+                            class="md:w-[50px] md:h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
+                            id="next1">></button>
                     </div>
                 </div>
                 <div class="item w-screen flex justify-center max-w-full py-24">
@@ -82,16 +81,15 @@
                         class="w-[90vw] lg:w-[65vw] xl:w-[80vw] grid grid-cols-12 items-center shadow-2xl shadow-chocolate bg-mocca bg-opacity-10 rounded-3xl xl:px-24 text-justify text-chocolate">
                         <button class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
                             id="prev2">
-                            << /button>
-                                <div class="flex items-center col-span-10 pr-8">
-                                    <img src="{{ asset('assets/logo-encryptour.png') }}" alt="logo"
-                                        class="w-auto h-[200px] md:h-[300px] xl:h-[400px]">
-                                    <p>ENCRYPTOUR (enkriptour) memiliki akronim yaitu ENgineers of Computer, Young
-                                        Pioneers Twenty fOUR.</p>
-                                </div>
-                                <button
-                                    class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
-                                    id="next2">></button>
+                        </button>
+                        <div class="flex items-center col-span-10 pr-8">
+                            <img src="{{ asset('assets/logo-encryptour.png') }}" alt="logo"
+                                class="w-auto h-[200px] md:h-[300px] xl:h-[400px]">
+                            <p>ENCRYPTOUR (enkriptour) memiliki akronim yaitu ENgineers of Computer, Young
+                                Pioneers Twenty fOUR.</p>
+                        </div>
+                        <button class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
+                            id="next2">></button>
                     </div>
                 </div>
                 <div class="item w-screen flex justify-center max-w-full py-24">
@@ -99,15 +97,14 @@
                         class="w-[90vw] lg:w-[65vw] xl:w-[80vw] grid grid-cols-12 items-center shadow-2xl shadow-chocolate bg-mocca bg-opacity-10 rounded-3xl xl:px-24 text-justify text-chocolate">
                         <button class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
                             id="prev3">
-                            << /button>
-                                <div class="flex items-center col-span-10 pr-8">
-                                    <img src="{{ asset('assets/logo-encryptour.png') }}" alt="logo"
-                                        class="w-auto h-[200px] md:h-[300px] xl:h-[400px]">
-                                    <p>Diambil dari kata “enkripsi” yang artinya melindungi suatu data.</p>
-                                </div>
-                                <button
-                                    class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
-                                    id="next3">></button>
+                        </button>
+                        <div class="flex items-center col-span-10 pr-8">
+                            <img src="{{ asset('assets/logo-encryptour.png') }}" alt="logo"
+                                class="w-auto h-[200px] md:h-[300px] xl:h-[400px]">
+                            <p>Diambil dari kata “enkripsi” yang artinya melindungi suatu data.</p>
+                        </div>
+                        <button class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
+                            id="next3">></button>
                     </div>
                 </div>
                 <div class="item w-screen flex justify-center max-w-full py-24">
@@ -115,16 +112,15 @@
                         class="w-[90vw] lg:w-[65vw] xl:w-[80vw] grid grid-cols-12 items-center shadow-2xl shadow-chocolate bg-mocca bg-opacity-10 rounded-3xl xl:px-24 text-justify text-chocolate">
                         <button class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
                             id="prev4">
-                            << /button>
-                                <div class="flex items-center col-span-10 pr-8">
-                                    <img src="{{ asset('assets/logo-encryptour.png') }}" alt="logo"
-                                        class="w-auto h-[150px] md:h-[300px] xl:h-[400px]">
-                                    <p>Young Pioneer maksudnya adalah kami penggerak muda dari Teknik Komputer angkatan
-                                        2024.</p>
-                                </div>
-                                <button
-                                    class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
-                                    id="next4">></button>
+                        </button>
+                        <div class="flex items-center col-span-10 pr-8">
+                            <img src="{{ asset('assets/logo-encryptour.png') }}" alt="logo"
+                                class="w-auto h-[150px] md:h-[300px] xl:h-[400px]">
+                            <p>Young Pioneer maksudnya adalah kami penggerak muda dari Teknik Komputer angkatan
+                                2024.</p>
+                        </div>
+                        <button class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
+                            id="next4">></button>
                     </div>
                 </div>
                 <div class="item w-screen flex justify-center max-w-full py-24">
@@ -132,16 +128,15 @@
                         class="w-[90vw] lg:w-[65vw] xl:w-[80vw] grid grid-cols-12 items-center shadow-2xl shadow-chocolate bg-mocca bg-opacity-10 rounded-3xl xl:px-24 text-justify text-chocolate">
                         <button class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
                             id="prev5">
-                            << /button>
-                                <div class="flex items-center col-span-10 pr-8">
-                                    <img src="{{ asset('assets/logo-encryptour.png') }}" alt="logo"
-                                        class="w-auto h-[150px] md:h-[300px] xl:h-[400px]">
-                                    <p>Kami sebagai angkatan memiliki keharusan dan tanggung jawab dalam saling
-                                        melindungi satu sama lain.</p>
-                                </div>
-                                <button
-                                    class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
-                                    id="next5">></button>
+                        </button>
+                        <div class="flex items-center col-span-10 pr-8">
+                            <img src="{{ asset('assets/logo-encryptour.png') }}" alt="logo"
+                                class="w-auto h-[150px] md:h-[300px] xl:h-[400px]">
+                            <p>Kami sebagai angkatan memiliki keharusan dan tanggung jawab dalam saling
+                                melindungi satu sama lain.</p>
+                        </div>
+                        <button class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
+                            id="next5">></button>
                     </div>
                 </div>
             </div>
@@ -156,404 +151,411 @@
         </div>
     </section>
 
-    <section id="Gallery" class="container mx-auto mt-20 py-24 px-6 bg-white">
-        <h1 class="text-4xl md:text-5xl font-extrabold text-start mb-8 text-[#66391c]">GALLERY</h1>
-        <p class="max-w-4xl text-[#66391c] font-semibold leading-relaxed">Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Iure debitis deserunt consectetur? Nesciunt dignissimos veritatis.</p>
-
-        <!-- Ini buat desktop! -->
-        <div class="flex justify-center mb-12 hidden lg:flex">
-            <div id="categoryButtons" class="flex gap-4 bg-white px-4 py-2 text-lg font-bold">
-                <button data-category="all"
-                    class="px-4 text-[#66391c] border-b-4 hover:text-[#F2E5BF] category-button">all</button>
-                <button data-category="proker" class="px-4 text-[#66391c] hover:text-[#F2E5BF] category-button"> proker
-                </button>
-                <button data-category="prestasi" class="px-4 text-[#66391c] hover:text-[#F2E5BF] category-button">
-                    prestasi </button>
-                <button data-category="tweets" class="px-4 text-[#66391c] hover:text-[#F2E5BF] category-button">
-                    tweets
-                </button>
+    <div class="tes">
+        <div class="flex my-32 items-center justify-center">
+            <div class="w-1/4 md:w-1/3 h-1 bg-chocolate shadow-lg"></div>
+            <div class="w-4 rounded-full bg-chocolate h-4 shadow-xl"></div>
+            <div class="text-2xl md:text-4xl md:w-1/3 w-2/4 font-bold flex justify-center text-chocolate">
+                <h2> Our Gallery</h2>
             </div>
+            <div class="w-4 rounded-full bg-chocolate h-4 shadow-xl"></div>
+            <div class="w-1/4 md:w-1/3 h-1 bg-chocolate shadow-lg"></div>
         </div>
+        <section id="Gallery" class="container mx-auto mt-20 py-24 px-6 ">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-start mb-8 text-[#66391c]">GALLERY</h1>
+            <p class="max-w-4xl text-[#66391c] font-semibold leading-relaxed">Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Iure debitis deserunt consectetur? Nesciunt dignissimos veritatis.</p>
+
+            <!-- Ini buat desktop! -->
+            <div class="flex justify-center mb-12 hidden lg:flex">
+                <div id="categoryButtons" class="flex gap-4 bg-white rounded-full px-4 py-2 text-lg font-bold">
+                    <button data-category="all"
+                        class="px-4 text-[#66391c] border-b-4 hover:text-[#F2E5BF] category-button">all</button>
+                    <button data-category="proker" class="px-4 text-[#66391c] hover:text-[#F2E5BF] category-button">
+                        proker
+                    </button>
+                    <button data-category="prestasi" class="px-4 text-[#66391c] hover:text-[#F2E5BF] category-button">
+                        prestasi </button>
+                    <button data-category="tweets" class="px-4 text-[#66391c] hover:text-[#F2E5BF] category-button">
+                        tweets
+                    </button>
+                </div>
+            </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    if (window.innerWidth >= 1024) {
+                        const buttons = document.querySelectorAll('.category-button');
+                        const items = document.querySelectorAll('.gallery-item');
+                        buttons.forEach(button => {
+                            button.addEventListener('click', () => {
+                                const category = button.getAttribute('data-category');
+
+                                buttons.forEach(btn => {
+                                    btn.classList.remove('border-b-4');
+                                    btn.classList.add('text-[#66391c]');
+                                });
+                                button.classList.add('border-b-4');
+                                button.classList.remove('text-[#66391c]');
+
+                                items.forEach(item => {
+                                    if (category === 'all' || item.getAttribute('data-category') ===
+                                        category) {
+                                        item.style.display = 'block';
+                                    } else {
+                                        item.style.display = 'none';
+                                    }
+                                });
+                            });
+                        });
+                    }
+
+                    // Optional: Kalo mau bisa nge handle resize windows
+                    window.addEventListener('resize', () => {
+                        if (window.innerWidth >= 1024) {
+                            // kasih kode aja
+                        }
+                    });
+                });
+            </script>
+
+            <div class="hidden lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="galleryGrid">
+                @foreach ($items as $item)
+                    <div class="gallery-item bg-white rounded-lg shadow-lg overflow-hidden"
+                        data-category="{{ $item['category'] }}">
+                        <img src="https://placehold.co/300" alt="Gallery Image" class="w-full">
+                        <div class="p-4">
+                            <span
+                                class="text-sm bg-mocca/20 text-[#66391c] py-1 px-2 rounded-full font-semibold uppercase">{{ $item['category'] }}</span>
+                            <h3 class="text-xl font-bold mt-4">{{ $item['title'] }}</h3>
+                            <p class="text-gray-600 text-sm mt-2">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                            </p>
+                            <a href="#"
+                                class="text-[#66391c] font-bold text-sm mt-4 inline-block hover:underline">see
+                                more →</a>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+
+            <!-- Ini buat mobile! -->
+            <div class="lg:hidden">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        @foreach ($items as $item)
+                            <div class="swiper-slide swiper-slides relative">
+                                <div class="gallery-item bg-cards/20 rounded-lg shadow-lg overflow-hidden">
+                                    <!-- Semua overlay -->
+                                    <div class="absolute inset-0 flex flex-col justify-between p-4 z-10">
+                                        <!-- Judul sama kategori -->
+                                        <div>
+                                            <span
+                                                class="text-sm bg-mocca text-[#66391c] py-1 px-2 rounded-full font-semibold uppercase">{{ $item['category'] }}</span>
+                                            <h3 class="text-xl font-bold mt-2 text-white">{{ $item['title'] }}</h3>
+                                        </div>
+                                        <!-- Ini read More nya -->
+                                        <div class="flex justify-center mt-auto">
+                                            <a href="#"
+                                                class="text-[#66391c] font-bold text-xl py-1 px-2 rounded mx-4 flex flex-col items-center">
+                                                <span class="text-lg">&#8593;</span> <!-- Upward arrow -->
+                                                open
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- Gambarnya -->
+                                    <img src="https://placehold.co/300" alt="Gallery Image"
+                                        class="swiper-image w-full">
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slides relative">
+                                <div class="gallery-item bg-cards/20 rounded-lg shadow-lg overflow-hidden">
+                                    <!-- Semua overlay -->
+                                    <div class="absolute inset-0 flex flex-col justify-between p-4 z-10">
+                                        <!-- Judul sama kategori -->
+                                        <div>
+                                            <span
+                                                class="text-sm bg-mocca text-[#66391c] py-1 px-2 rounded-full font-semibold uppercase">{{ $item['category'] }}</span>
+                                            <h3 class="text-xl font-bold mt-2 text-white">{{ $item['title'] }}</h3>
+                                        </div>
+                                        <!-- Ini read More nya -->
+                                        <div class="flex justify-center mt-auto">
+                                            <a href="#"
+                                                class="text-[#66391c] font-bold text-xl py-1 px-2 rounded mx-4 flex flex-col items-center">
+                                                <span class="text-lg">&#8593;</span> <!-- Upward arrow -->
+                                                open
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- Gambarnya -->
+                                    <img src="https://placehold.co/300" alt="Gallery Image"
+                                        class="swiper-image w-full">
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                    <!-- Pagination dan Navigation Opsional -->
+                    {{-- <div class="swiper-pagination"></div> --}}
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ini library Swiper nya -->
+        <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+        <style>
+            @media (max-width: 768px) {
+                .swiper-slides {
+                    position: relative;
+                    overflow: hidden;
+                    border-radius: 50px;
+                }
+
+                .swiper-image {
+                    height: 500px;
+                    object-fit: cover;
+                    object-position: center center;
+                }
+            }
+
+            .swiper-slides .absolute {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 10;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 1rem;
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                color: #66391c;
+                stroke-width: 30px
+            }
+        </style>
+
+        <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 
         <script>
             document.addEventListener('DOMContentLoaded', () => {
-                if (window.innerWidth >= 1024) {
-                    const buttons = document.querySelectorAll('.category-button');
-                    const items = document.querySelectorAll('.gallery-item');
-                    buttons.forEach(button => {
-                        button.addEventListener('click', () => {
-                            const category = button.getAttribute('data-category');
-
-                            buttons.forEach(btn => {
-                                btn.classList.remove('border-b-4');
-                                btn.classList.add('text-[#66391c]');
-                            });
-                            button.classList.add('border-b-4');
-                            button.classList.remove('text-[#66391c]');
-
-                            items.forEach(item => {
-                                if (category === 'all' || item.getAttribute('data-category') ===
-                                    category) {
-                                    item.style.display = 'block';
-                                } else {
-                                    item.style.display = 'none';
-                                }
-                            });
-                        });
-                    });
-                }
-
-                // Optional: Kalo mau bisa nge handle resize windows
-                window.addEventListener('resize', () => {
-                    if (window.innerWidth >= 1024) {
-                        // kasih kode aja
-                    }
+                const swiper = new Swiper('.swiper', {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    effect: 'coverflow',
+                    coverflowEffect: {
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                    },
+                    autoplay: {
+                        delay: 2000,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
                 });
             });
         </script>
+    </div>
 
-        <div class="hidden lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="galleryGrid">
-            @foreach ($items as $item)
-                <div class="gallery-item bg-white rounded-lg shadow-lg overflow-hidden"
-                    data-category="{{ $item['category'] }}">
-                    <img src="https://placehold.co/300" alt="Gallery Image" class="w-full">
-                    <div class="p-4">
-                        <span
-                            class="text-sm bg-mocca/20 text-[#66391c] py-1 px-2 rounded-full font-semibold uppercase">{{ $item['category'] }}</span>
-                        <h3 class="text-xl font-bold mt-4">{{ $item['title'] }}</h3>
-                        <p class="text-gray-600 text-sm mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#"
-                            class="text-[#66391c] font-bold text-sm mt-4 inline-block hover:underline">see
-                            more →</a>
-                    </div>
-                </div>
-            @endforeach
-        </div>
-
-        <!-- Ini buat mobile! -->
-        <div class="lg:hidden">
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    @foreach ($items as $item)
-                        <div class="swiper-slide relative">
-                            <div class="gallery-item bg-cards/20 rounded-lg shadow-lg overflow-hidden">
-                                <!-- Semua overlay -->
-                                <div class="absolute inset-0 flex flex-col justify-between p-4 z-10">
-                                    <!-- Judul sama kategori -->
-                                    <div>
-                                        <span
-                                            class="text-sm bg-mocca text-[#66391c] py-1 px-2 rounded-full font-semibold uppercase">{{ $item['category'] }}</span>
-                                        <h3 class="text-xl font-bold mt-2 text-white">{{ $item['title'] }}</h3>
-                                    </div>
-                                    <!-- Ini read More nya -->
-                                    <div class="flex justify-center mt-auto">
-                                        <a href="#"
-                                            class="text-[#66391c] font-bold text-xl py-1 px-2 rounded mx-4 flex flex-col items-center">
-                                            <span class="text-lg">&#8593;</span> <!-- Upward arrow -->
-                                            open
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- Gambarnya -->
-                                <img src="https://placehold.co/300" alt="Gallery Image" class="swiper-image w-full">
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
-                <!-- Pagination dan Navigation Opsional -->
-                {{-- <div class="swiper-pagination"></div> --}}
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Ini library Swiper nya -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <style>
-        @media (max-width: 768px) {
-            .swiper-slide {
-                position: relative;
-                overflow: hidden;
-                border-radius: 50px;
-            }
-
-            .swiper-image {
-                height: 500px;
-                object-fit: cover;
-                object-position: center center;
-            }
-        }
-
-        .swiper-slide .absolute {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 10;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            padding: 1rem;
-        }
-
-        .swiper-button-next,
-        .swiper-button-prev {
-            color: #66391c;
-            stroke-width: 30px
-        }
-    </style>
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const swiper = new Swiper('.swiper', {
-                slidesPerView: 1,
-                spaceBetween: 20,
-                effect: 'coverflow',
-                coverflowEffect: {
-                    rotate: 50,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 1,
-                    slideShadows: true,
-                },
-                autoplay: {
-                    delay: 2000,
-                    disableOnInteraction: false,
-                },
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
-        });
-    </script>
-
-    <section id="carousel-proker">
-        <div class="flex my-10 items-center justify-center">
-            <div class="w-1/4 md:w-1/3 h-1 bg-mocca shadow-lg"></div>
-            <div class="w-4 rounded-full bg-mocca h-4 shadow-xl"></div>
-            <div class="text-2xl md:text-4xl md:w-1/3 w-2/4 font-bold flex justify-center text-mocca">
+    <section id="proker">
+        <div class="flex my-32 items-center justify-center">
+            <div class="w-1/4 md:w-1/3 h-1 bg-chocolate shadow-lg"></div>
+            <div class="w-4 rounded-full bg-chocolate h-4 shadow-xl"></div>
+            <div class="text-2xl md:text-4xl md:w-1/3 w-2/4 font-bold flex justify-center text-chocolate">
                 <h2> Program Kerja</h2>
             </div>
-            <div class="w-4 rounded-full bg-mocca h-4 shadow-xl"></div>
-            <div class="w-1/4 md:w-1/3 h-1 bg-mocca shadow-lg"></div>
+            <div class="w-4 rounded-full bg-chocolate h-4 shadow-xl"></div>
+            <div class="w-1/4 md:w-1/3 h-1 bg-chocolate shadow-lg"></div>
         </div>
-        {{-- carousel proker --}}
-        <div class="w-full justify-center flex overflow-hidden my-20">
-            <div class="relative w-full">
-                <!-- Slider Wrapper -->
-                <div id="carousel2" class="w-full h-[35vh] flex transition-transform duration-500">
-
-                    <!-- Cards -->
-                    <div class="flex-shrink-0 h-full w-1/2 relative mx-4">
+        <div class="w-full relative  overflow-hidden">
+            <div class="swipers centered-slide-carousel swiper-container relative ">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
                         <div
-                            class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
+                            class=" w-full h-1/4 z-10 absolute rounded-2xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
                             <h3
                                 class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
                                 23 - 12 - 2024</h3>
                         </div>
                         <div
-                            class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
+                            class=" w-full h-1/2 z-10 rounded-2xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
                             <h3
                                 class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
                                 Teks Apapun</h3>
                             <p style="scrollbar-width: none; -ms-overflow-style: none;"
-                                class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-8 md:text-lg md:h-full h-8 overflow-y-auto font-montserrat">
+                                class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-10 pr-2  md:pr-4 md:text-md md:h-8 h-6 overflow-y-auto font-montserrat">
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error
                                 quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum,
-                                sit doloribus consequatur, nam voluptatem sint velit illum, impedit eligendi quos quod
-                                explicabo magnam! Blanditiis illum mollitia voluptatibus repellat quos, magni similique
-                                voluptatem nobis. Aut labore porro praesentium asperiores nisi eius assumenda soluta
-                                sint nostrum beatae. Laudantium, dicta inventore. Libero nesciunt, repudiandae rerum
-                                ducimus laboriosam obcaecati placeat facilis quod reiciendis quam blanditiis eaque quo
-                                nemo. Cumque ratione ea amet voluptatem error modi nisi ullam debitis sit dolorum, ut
-                                pariatur alias beatae laboriosam. Quo, ab iste minima magni voluptatem molestiae!</p>
+                            </p>
                         </div>
-                        <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
-                            <img src="assets/foto-angkatan(4).jpg" class=" object-cover w-full h-full object-center"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="flex-shrink-0 h-full w-1/2 relative mx-4">
-                        <div
-                            class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
-                            <h3
-                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
-                                23 - 12 - 2024</h3>
-                        </div>
-                        <div
-                            class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
-                            <h3
-                                class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
-                                Teks Apapun</h3>
-                            <p style="scrollbar-width: none; -ms-overflow-style: none;"
-                                class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-8 md:text-lg md:h-full h-8 overflow-y-auto font-montserrat">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error
-                                quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum,
-                                sit doloribus consequatur, nam voluptatem sint velit illum, impedit eligendi quos quod
-                                explicabo magnam! Blanditiis illum mollitia voluptatibus repellat quos, magni similique
-                                voluptatem nobis. Aut labore porro praesentium asperiores nisi eius assumenda soluta
-                                sint nostrum beatae. Laudantium, dicta inventore. Libero nesciunt, repudiandae rerum
-                                ducimus laboriosam obcaecati placeat facilis quod reiciendis quam blanditiis eaque quo
-                                nemo. Cumque ratione ea amet voluptatem error modi nisi ullam debitis sit dolorum, ut
-                                pariatur alias beatae laboriosam. Quo, ab iste minima magni voluptatem molestiae!</p>
-                        </div>
-                        <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
-                            <img src="assets/foto-angkatan(1).jpg" class=" object-cover w-full h-full object-center"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="flex-shrink-0 h-full w-1/2 relative mx-4">
-                        <div
-                            class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
-                            <h3
-                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
-                                23 - 12 - 2024</h3>
-                        </div>
-                        <div
-                            class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
-                            <h3
-                                class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
-                                Teks Apapun</h3>
-                            <p style="scrollbar-width: none; -ms-overflow-style: none;"
-                                class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-8 md:text-lg md:h-full h-8 overflow-y-auto font-montserrat">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error
-                                quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum,
-                                sit doloribus consequatur, nam voluptatem sint velit illum, impedit eligendi quos quod
-                                explicabo magnam! Blanditiis illum mollitia voluptatibus repellat quos, magni similique
-                                voluptatem nobis. Aut labore porro praesentium asperiores nisi eius assumenda soluta
-                                sint nostrum beatae. Laudantium, dicta inventore. Libero nesciunt, repudiandae rerum
-                                ducimus laboriosam obcaecati placeat facilis quod reiciendis quam blanditiis eaque quo
-                                nemo. Cumque ratione ea amet voluptatem error modi nisi ullam debitis sit dolorum, ut
-                                pariatur alias beatae laboriosam. Quo, ab iste minima magni voluptatem molestiae!</p>
-                        </div>
-                        <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
+                        <div class="w-full absolute rounded-2xl h-full bg-mocca shadow-lg overflow-hidden ">
                             <img src="assets/foto-angkatan(2).jpg" class=" object-cover w-full h-full object-center"
                                 alt="">
                         </div>
+                        <div class="bg-indigo-50 rounded-2xl h-[40vh]  flex justify-center items-center">
+                            <span class="text-3xl font-semibold text-chocolate">Slide</span>
+                        </div>
                     </div>
-                    <div class="flex-shrink-0 h-full w-1/2 relative mx-4">
+                    <div class="swiper-slide">
                         <div
-                            class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
+                            class=" w-full h-1/4 z-10 absolute rounded-2xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
                             <h3
                                 class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
                                 23 - 12 - 2024</h3>
                         </div>
                         <div
-                            class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
+                            class=" w-full h-1/2 z-10 rounded-2xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
                             <h3
                                 class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
                                 Teks Apapun</h3>
                             <p style="scrollbar-width: none; -ms-overflow-style: none;"
-                                class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-8 md:text-lg md:h-full h-8 overflow-y-auto font-montserrat">
+                                class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-10 pr-2  md:pr-4 md:text-md md:h-8 h-6 overflow-y-auto font-montserrat">
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error
                                 quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum,
-                                sit doloribus consequatur, nam voluptatem sint velit illum, impedit eligendi quos quod
-                                explicabo magnam! Blanditiis illum mollitia voluptatibus repellat quos, magni similique
-                                voluptatem nobis. Aut labore porro praesentium asperiores nisi eius assumenda soluta
-                                sint nostrum beatae. Laudantium, dicta inventore. Libero nesciunt, repudiandae rerum
-                                ducimus laboriosam obcaecati placeat facilis quod reiciendis quam blanditiis eaque quo
-                                nemo. Cumque ratione ea amet voluptatem error modi nisi ullam debitis sit dolorum, ut
-                                pariatur alias beatae laboriosam. Quo, ab iste minima magni voluptatem molestiae!</p>
+                            </p>
                         </div>
-                        <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
+                        <div class="w-full absolute rounded-2xl h-full bg-mocca shadow-lg overflow-hidden ">
                             <img src="assets/foto-angkatan(3).jpg" class=" object-cover w-full h-full object-center"
                                 alt="">
                         </div>
+                        <div class="bg-indigo-50 rounded-2xl h-[40vh]  flex justify-center items-center">
+                            <span class="text-3xl font-semibold text-chocolate">Slide</span>
+                        </div>
                     </div>
-                    <div class="flex-shrink-0 h-full w-1/2 relative mx-4">
+                    <div class="swiper-slide">
                         <div
-                            class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
+                            class=" w-full h-1/4 z-10 absolute rounded-2xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
                             <h3
                                 class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
                                 23 - 12 - 2024</h3>
                         </div>
                         <div
-                            class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
+                            class=" w-full h-1/2 z-10 rounded-2xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
                             <h3
                                 class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
                                 Teks Apapun</h3>
                             <p style="scrollbar-width: none; -ms-overflow-style: none;"
-                                class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-8 md:text-lg md:h-full h-8 overflow-y-auto font-montserrat">
+                                class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-10 pr-2  md:pr-4 md:text-md md:h-8 h-6 overflow-y-auto font-montserrat">
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error
                                 quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum,
-                                sit doloribus consequatur, nam voluptatem sint velit illum, impedit eligendi quos quod
-                                explicabo magnam! Blanditiis illum mollitia voluptatibus repellat quos, magni similique
-                                voluptatem nobis. Aut labore porro praesentium asperiores nisi eius assumenda soluta
-                                sint nostrum beatae. Laudantium, dicta inventore. Libero nesciunt, repudiandae rerum
-                                ducimus laboriosam obcaecati placeat facilis quod reiciendis quam blanditiis eaque quo
-                                nemo. Cumque ratione ea amet voluptatem error modi nisi ullam debitis sit dolorum, ut
-                                pariatur alias beatae laboriosam. Quo, ab iste minima magni voluptatem molestiae!</p>
+                            </p>
                         </div>
-                        <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
-                            <img src="assets/foto-angkatan(1).jpg" class=" object-cover w-full h-full object-center"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="flex-shrink-0 h-full w-1/2 relative mx-4">
-                        <div
-                            class=" w-full h-1/4 absolute rounded-3xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
-                            <h3
-                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
-                                23 - 12 - 2024</h3>
-                        </div>
-                        <div
-                            class=" w-full h-1/2 rounded-3xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
-                            <h3
-                                class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
-                                Teks Apapun</h3>
-                            <p style="scrollbar-width: none; -ms-overflow-style: none;"
-                                class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-8 md:text-lg md:h-full h-8 overflow-y-auto font-montserrat">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error
-                                quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum,
-                                sit doloribus consequatur, nam voluptatem sint velit illum, impedit eligendi quos quod
-                                explicabo magnam! Blanditiis illum mollitia voluptatibus repellat quos, magni similique
-                                voluptatem nobis. Aut labore porro praesentium asperiores nisi eius assumenda soluta
-                                sint nostrum beatae. Laudantium, dicta inventore. Libero nesciunt, repudiandae rerum
-                                ducimus laboriosam obcaecati placeat facilis quod reiciendis quam blanditiis eaque quo
-                                nemo. Cumque ratione ea amet voluptatem error modi nisi ullam debitis sit dolorum, ut
-                                pariatur alias beatae laboriosam. Quo, ab iste minima magni voluptatem molestiae!</p>
-                        </div>
-                        <div class="w-full rounded-3xl h-full bg-mocca shadow-lg overflow-hidden ">
+                        <div class="w-full absolute rounded-2xl h-full bg-mocca shadow-lg overflow-hidden ">
                             <img src="assets/foto-angkatan(2).jpg" class=" object-cover w-full h-full object-center"
                                 alt="">
                         </div>
+                        <div class="bg-indigo-50 rounded-2xl h-[40vh]  flex justify-center items-center">
+                            <span class="text-3xl font-semibold text-chocolate">Slide</span>
+                        </div>
                     </div>
-
-                    {{-- <div class="flex-shrink-0 md:w-0 w-1/2 h-full bg-transparent relative mx-4"></div> --}}
+                    <div class="swiper-slide">
+                        <div
+                            class=" w-full h-1/4 z-10 absolute rounded-2xl top-0 overflow-hidden left-0 p-7  bg-gradient-to-b from-black/30">
+                            <h3
+                                class="text-lg md:text-2xl text-vanilla font-medium absolute top-5 md:top-10 font-montserrat drop-shadow-md">
+                                23 - 12 - 2024</h3>
+                        </div>
+                        <div
+                            class=" w-full h-1/2 z-10 rounded-2xl absolute bottom-0 overflow-hidden left-0 p-7  bg-gradient-to-t from-black/60">
+                            <h3
+                                class="text-xl md:text-4xl text-vanilla font-bold absolute bottom-16 md:bottom-16 font-montserrat drop-shadow-md">
+                                Teks Apapun</h3>
+                            <p style="scrollbar-width: none; -ms-overflow-style: none;"
+                                class="text-xs text-vanilla font-base absolute top-2/3 md:bottom-10 pr-2  md:pr-4 md:text-md md:h-8 h-6 overflow-y-auto font-montserrat">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis quae error
+                                quibusdam, reiciendis accusantium explicabo doloribus odio commodi. Ducimus voluptatum,
+                            </p>
+                        </div>
+                        <div class="w-full absolute rounded-2xl h-full bg-mocca shadow-lg overflow-hidden ">
+                            <img src="assets/foto-angkatan(1).jpg" class=" object-cover w-full h-full object-center"
+                                alt="">
+                        </div>
+                        <div class="bg-indigo-50 rounded-2xl h-[40vh]  flex justify-center items-center">
+                            <span class="text-3xl font-semibold text-chocolate">Slide</span>
+                        </div>
+                    </div>
                 </div>
-                <!-- Navigation Buttons -->
-                <button id="prev2"
-                    class="absolute top-1/2 left-2 -translate-y-1/2 font-montserrat text-lg hover:text-2xl bg-black/10 hover:bg-black/30 hover:w-[5vh] hover:h-[5vh] transition-all  backdrop-blur-sm text-white/50 w-[3vh] h-[3vh]  rounded-full">&#10525;</button>
-                <button id="next2"
-                    class="absolute top-1/2 right-2 -translate-y-1/2 font-montserrat text-lg hover:text-2xl bg-black/10 hover:bg-black/30 hover:w-[5vh] hover:h-[5vh] transition-all  backdrop-blur-sm text-white/50 w-[3vh] h-[3vh]  rounded-full">&#10526;</button>
+
+                <div class="w-full flex justify-center swiper-paginations "></div>
             </div>
         </div>
+        <style>
+            /* CSS Code */
+            .swiper-wrapper {
+                width: 100%;
+                height: max-content !important;
+                padding-bottom: 64px !important;
+                -webkit-transition-timing-function: linear !important;
+                transition-timing-function: linear !important;
+                position: relative;
+            }
+
+            .swiper-pagination-bullet {
+                background: #66391C;
+            }
+
+            .swiper-pagination-bullet-active {
+                background: #66391C !important;
+            }
+        </style>
+        <link href="{{ asset('css/swiper.css') }}" rel="stylesheet" />
+        <script src="{{ asset('css/swiper.js') }}"></script>
+        <script>
+            var swiper = new Swiper(".centered-slide-carousel", {
+                centeredSlides: true,
+                paginationClickable: true,
+                loop: true,
+                spaceBetween: 30,
+                slideToClickedSlide: true,
+                pagination: {
+                    el: ".centered-slide-carousel .swiper-paginations",
+                    clickable: true,
+                },
+                breakpoints: {
+                    1920: {
+                        slidesPerView: 4,
+                        spaceBetween: 30
+                    },
+                    720: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    300: {
+                        slidesPerView: 2,
+                        spaceBetween: 10
+                    }
+                }
+            });
+        </script>
     </section>
-    <section id="biodata">
-        <div id="biodata" class="absolute left-0 right-0 flex justify-center bg-mocca">
+    <section id="bio" class="relative overflow-hidden">
+        <div id="biodata" class="absolute w-full top-10 left-0 flex justify-center bg-mocca">
             <h1 class="bg-vanilla rounded-full py-4 px-24 text-chocolate text-4xl font-bold">Biodata</h1>
         </div>
-        <div class="mt-32 grid grid-cols-12 items-center justify-center">
+        <div class="mt-44 grid grid-cols-12 items-center justify-center">
             <a class="col-span-1 mx-auto" href="{{ url('/?page=1&#biodata') }}">
                 <button class="w-[50px] h-[50px] rounded-full text-chocolate border-none font-mono font-bold"
-                    id="prev">
-                    << /button>
+                    id="prev"><
+                </button>
             </a>
             <div class="col-span-10 container grid grid-cols-3 gap-2">
                 @forelse ($data as $item)
                     <div
-                        class="overflow-hidden group flex justify-between items-end mx-auto aspect-square xl:w-[350px] lg:w-[280px] sm:w-[210px] w-[108px] transition-all duration-700 ease-in-out border-chocolate border-2 hover:bg-chocolate hover:text-vanilla :hover:text-opacity-75">
+                        class="overflow-hidden group flex justify-between items-end mx-auto aspect-square xl:w-[350px] lg:w-[280px] sm:w-[210px] w-[108px] transition-all duration-700 ease-in-out border-chocolate border-2 hover:bg-chocolate hover:text-vanilla hover:text-opacity-75">
                         <div class="flex flex-col mb-2 sm:mb-4 lg:mb-12 ml-1 sm:ml-2 lg:ml-6 z-10">
                             <div class="text-xs sm:text-sm">{{ $item['nama_lengkap'] }}</div>
                             <div class="hidden sm:block text-2xl font-bold mb-2">{{ $item['nama_panggilan'] }}</div>
@@ -589,9 +591,9 @@
         </div>
         <script type="text/javascript">
             let slider = document.querySelector('.slider .list');
-            let items = document.querySelectorAll('.slider .list .item');
+            let items2 = document.querySelectorAll('.slider .list .item');
             let dots = document.querySelectorAll('.slider .dots li');
-            let lengthItems = items.length - 1;
+            let lengthItems = items2.length - 1;
             let active = 0;
 
             for (let i = 1; i <= 5; i++) {
@@ -609,7 +611,7 @@
             }
             // let refreshInterval = setInterval(()=> {next.click()}, 3000);
             function reloadSlider() {
-                slider.style.left = -items[active].offsetLeft + 'px';
+                slider.style.left = -items2[active].offsetLeft + 'px';
                 //
                 let last_active_dot = document.querySelector('.slider .dots li.active');
                 last_active_dot.classList.remove('active');
@@ -658,13 +660,13 @@
             indicators.push(indicator);
         }
 
-        document.getElementById('prev').addEventListener('click', () => {
+        document.getElementById('prev0').addEventListener('click', () => {
             currentIndex = (currentIndex > 0) ? currentIndex - 1 : totalItems - 1;
             updateCarousel();
             resetInterval();
         });
 
-        document.getElementById('next').addEventListener('click', () => {
+        document.getElementById('next0').addEventListener('click', () => {
             currentIndex = (currentIndex < totalItems - 1) ? currentIndex + 1 : 0;
             updateCarousel();
             resetInterval();
@@ -706,97 +708,5 @@
         updateCarousel();
         startCarousel();
     </script>
-    {{-- carousel proker --}}
-    <script>
-        const carousel2 = document.getElementById('carousel2');
-        const prevButton2 = document.getElementById('prev2');
-        const nextButton2 = document.getElementById('next2');
-        let currentIndex2 = 0;
-        let isDragging = false;
-        let startX = 0;
-        let currentX = 0;
-        let moveX = 0;
 
-        // Function to update carousel position
-        function updateCarousel2() {
-            const slideWidth = carousel2.clientWidth;
-            const offset = -currentIndex2 * 50;
-            carousel2.style.transform = `translateX(${offset}%)`;
-            // carousel2.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-        }
-
-        // Event listeners for navigation buttons
-        prevButton2.addEventListener('click', () => {
-            currentIndex2 = (currentIndex2 === 0) ? carousel2.children.length - 1 : currentIndex2 - 1;
-            updateCarousel2();
-        });
-
-        nextButton2.addEventListener('click', () => {
-            currentIndex2 = (currentIndex2 === carousel2.children.length - 1) ? 0 : currentIndex2 + 1;
-            updateCarousel2();
-        });
-
-        // Ensure carousel updates when window is resized
-        window.addEventListener('resize', () => {
-            updateCarousel2(); // Recalculate position on resize
-        });
-
-        // Initialize the carousel
-        updateCarousel2(); // Call this to position the carousel correctly on page load
-        carousel2.style.transform = 'translateX(-25%)';
-
-        // Drag functionality for mouse and touch
-        carousel2.addEventListener('mousedown', (e) => {
-            isDragging = true;
-            startX = e.clientX || e.touches[0].clientX;
-        });
-
-        carousel2.addEventListener('mousemove', (e) => {
-            if (!isDragging) return;
-            currentX = e.clientX || e.touches[0].clientX;
-            moveX = startX - currentX;
-
-            carousel2.style.transform = `translateX(calc(-30% - ${moveX}px))`;
-        });
-
-        carousel2.addEventListener('mouseup', () => {
-            isDragging = false;
-            const slideWidth = carousel2.clientWidth;
-            if (Math.abs(moveX) > slideWidth / 3) {
-                if (moveX > 0) {
-                    currentIndex2 = (currentIndex2 === carousel2.children.length - 1) ? 0 : currentIndex2 + 1;
-                } else {
-                    currentIndex2 = (currentIndex2 === 0) ? carousel2.children.length - 1 : currentIndex2 - 1;
-                }
-            }
-            updateCarousel2();
-        });
-
-        // For touch events
-        carousel2.addEventListener('touchstart', (e) => {
-            isDragging = true;
-            startX = e.touches[0].clientX;
-        });
-
-        carousel2.addEventListener('touchmove', (e) => {
-            if (!isDragging) return;
-            currentX = e.touches[0].clientX;
-            moveX = startX - currentX;
-
-            carousel2.style.transform = `translateX(calc(-30% - ${moveX}px))`;
-        });
-
-        carousel2.addEventListener('touchend', () => {
-            isDragging = false;
-            const slideWidth = carousel2.clientWidth;
-            if (Math.abs(moveX) > slideWidth / 3) {
-                if (moveX > 0) {
-                    currentIndex2 = (currentIndex2 === carousel2.children.length - 1) ? 0 : currentIndex2 + 1;
-                } else {
-                    currentIndex2 = (currentIndex2 === 0) ? carousel2.children.length - 1 : currentIndex2 - 1;
-                }
-            }
-            updateCarousel2();
-        });
-    </script>
 </x-app-layout>

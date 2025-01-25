@@ -1,32 +1,6 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ENCRYPTOUR</title>
+<x-app-layout>
         <link rel="icon" type="image/x-icon" href="jajal/logo/logo1.png" />
         <link rel="stylesheet" href="jajal/styles.css">
-    </head>
-    <body>
-        <!--Navbar-->
-        {{-- <header class="header">
-            <div class="container">
-                <a href="index.html" class="logo">ENCRYPTOUR</a>
-                <div class="menu-toggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <nav class="navbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="home.html">home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="proman/index.html">identify</a></li>
-                        <li class="nav-item"><a class="nav-link" href="home.html">biodata</a></li>
-                        <li class="nav-item"><a class="nav-link" href="proman/index.html">gallery</a></li>
-                    </ul>
-                </nav>
-            </div>
-            </header> --}}
             
             <!--Foto Angkatan-->
             <div class="foto"></div>
@@ -384,5 +358,4 @@
 
         
         <script src="jajal/script.js"></script>
-    </body>
-    </html>
+</x-app-layout>
