@@ -22,8 +22,18 @@ class BiodataController extends Controller
             });
         }
 
-        usort($jsonData, function ($a, $b) {
-            return strcmp($a['nama_lengkap'], $b['nama_lengkap']);
+        $order = $request->input('order', 'asc');
+
+        usort($jsonData, function ($a, $b) use ($order) {
+            if (!isset($a['mdpl']) || !isset($b['mdpl'])) {
+                return 0;
+            }
+
+            if ($order === 'asc') {
+                return $a['mdpl'] <=> $b['mdpl'];
+            } else {
+                return $b['mdpl'] <=> $a['mdpl'];
+            }
         });
 
         $currentPage = $request->input('page', 1);
@@ -44,7 +54,8 @@ class BiodataController extends Controller
             'data' => $currentItems,
             'currentPage' => $currentPage,
             'totalPages' => $totalPages,
-            'searchQuery' => $searchQuery
+            'searchQuery' => $searchQuery,
+            'order' => $order
         ]);
     }
 
