@@ -30,7 +30,7 @@
             class="absolute right-5 top-3 hover:rotate-180 hover:duration-500 hover:scale-90 transition cursor-pointer text-vanilla text-3xl">
             &#128936;
         </div>
-        <img src="/assets/foto-bebas/${itemData.non_formal_picture}"
+        <img src="/assets/foto-formal/${itemData.formal_picture}"
             class="h-3/4 bottom-0 lg:-left-1/2 md:-left-1/2  md:-translate-x-10 -left-2/3 absolute float-left"
             alt="">
         <div class="p-4">
@@ -92,7 +92,7 @@
         </button>
     </div>
     <div class="w-full h-1/3  bg-transparent flex justify-center bg-white relative items-end ">
-        <img src="/assets/foto-bebas/${itemData.non_formal_picture}" class="object-cover h-[125%] absolute  -bottom-20" alt="">
+        <img src="/assets/foto-formal/${itemData.formal_picture}" class="object-cover h-[125%] absolute  -bottom-20" alt="">
     </div>
     <div class="w-full h-1/2 bg-gradient-to-tr from-[#AD7D4F] from-60% to-[#EDB47E] relative p-6">
         <div class="w-full">
